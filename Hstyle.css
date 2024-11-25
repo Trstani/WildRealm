@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+body{
+ background-color: black;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+/* Styling logo */
+.logo {
+   
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 20px;
+}
+
+/* Styling link navigasi */
+.nav-links {
+    list-style: none;
+    float: right;
+    
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+
+}
+
+.nav-links ul{
+    margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+
+}
+
+/* Efek hover pada link */
+.nav-links a:hover {
+    color:yellow; 
+}
+
+
+.Join a{
+    background-color: rgb(63, 153, 138);
+    padding: 12px 32px 14px 32px; 
+    margin-top: 12px;
+    transition: color 0.3s;
+    border-radius: 15px;
+}
+
+.Join a:hover{
+    background-color: rgb(250, 250, 250);
+    color: black
+}
+
+
+main{
+    margin-top: 70px;
+}
+
+
+h1{
+    font-size: 50px;
+    margin: 4em 0 0 0;
+    color: beige;
+}
+
+h2{
+    font-size: 24px;  
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 12px;
+    color: black;
+    font: bold;
+}
+
+.nav-acc ul{  
+    padding: 0;
+    list-style: none;
+    display: inline-flex;  
+}
+
+.intro1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    height: 600px;
+    width: auto;
+    
+}
+
+.block1{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/brown-bear.jpg);
+    margin-left: 40px;
+    border-radius: 40px;
+}
+
+
+.block2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.block2 p{
+    font-size: 20px;
+    color: yellow;
+}
+
+.leftcont{
+    display: row;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 30px ;
+    margin-right: 30px;
+}
+
+.count{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+   
+}
+
+
+
+img{
+    background-size: cover;
+    width: 500px ;
+    height: 400px;
+    flex-direction: column;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left:  20px; ;
+    margin-top: 20px;
+}
+
+.atc{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 40px;
+    border-radius: 40px;
+    background-color: rgb(74, 136, 136);
+    padding: 32px
+}
+
+button{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(65, 143, 110);
+    color: aliceblue;
+    border-color:rgb(0, 0, 0) ;
+    
+}
+
+button:hover{
+    background-color:white ;
+    color:black ;
+    transition: 0.5ms;
+}
+
+
+.Blok{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: auto;
+}
+
+.rightcont{
+    display: row;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 30px ;
+    margin-right: 30px;
+     
+
+}
+
+.pagnumi{
+    justify-content: center;
+    margin-left: 850px;
+}
+
+.pagnum a{
+    background-color: white; 
+    border: 2px solid #000000; 
+    color: black; 
+    display: inline-block; 
+    font-size: 18px; 
+    font-weight: 600; 
+    margin-top: 5px; 
+    padding: 10px 10px 12px 10px; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    border-radius: 5px;
+
+
+}
+
+.pagnum a:hover{
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+    border-color: aliceblue;
+    transition: 0.6s;
+}
