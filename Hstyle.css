@@ -177,6 +177,8 @@ img{
     align-items: flex-start;
     flex-direction: column;
     margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 40px;
     background-color: rgb(74, 136, 136);
     padding: 32px
