@@ -6,8 +6,7 @@
 }
 
 body{
-    background-image: url(./img/Africa-wilf-life-wallpaper.jpg);
-    background-size: cover;
+    background-color: #000000;
 
 }
 
@@ -139,7 +138,7 @@ p{
 .intro2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: right;
+    text-align: left;
     height: 600px;
     width: auto;
 
@@ -158,9 +157,9 @@ p{
 .block4{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 
@@ -188,7 +187,7 @@ p{
 }
 
 footer{
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(63, 153, 138, 0.5);
     position: relative;
     width: 100%;
     min-height: 350px;
